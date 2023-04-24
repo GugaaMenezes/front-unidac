@@ -11,7 +11,7 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-    $.getJSON('http://dglxjvtyfa.eu11.qoddiapp.com:8080/unidac/listar', function (data) {
+    $.getJSON('http://dglxjvtyfa.eu11.qoddiapp.com/unidac/listar', function (data) {
         var lista = '';
         $.each(data, function (index, colaborador) {
             lista += '<ul>' + colaborador.id + ' | ' + colaborador.nome + ' | ' + colaborador.cpf + ' | ' + colaborador.dataDoCafedaManha + '</ul>';
