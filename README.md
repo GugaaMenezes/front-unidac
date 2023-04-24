@@ -40,7 +40,7 @@ Nesse desafio, pude trabalhar com todas as etapas do desenvolvimento, desde a an
 #### Retorna todos os itens
 
 ```http
-  GET /unidac
+  GET /unidac/listar
 ```
 
 #### Inclui dados no Banco de dados via Api REST
