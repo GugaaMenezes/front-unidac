@@ -11,7 +11,7 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-    $.getJSON('http://unidacdesafio-production-8747.up.railway.app/unidac/listar', function (data) {
+    $.getJSON('https://unidacdesafio-production-8747.up.railway.app/unidac/listar', function (data) {
         var lista = '';
         $.each(data, function (index, colaborador) {
             lista += '<ul>' + colaborador.id + ' | ' + colaborador.nome + ' | ' + colaborador.cpf + ' | ' + colaborador.dataDoCafedaManha + '</ul>';
