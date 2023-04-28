@@ -114,6 +114,8 @@
                                                 event.preventDefault();
 
                                                 //const inputs = ['nome', 'cpf', 'data_evento', 'itens_cafe'];
+
+                                                if(data_evento >= date) {
                                                 const inputs = ['nome', 'cpf', 'data_evento'];
                                                 let isValid = true;
 
@@ -152,6 +154,10 @@
                                                 } else {
                                                     alert('Colaborador não incluído, verifique os dados e tente novamente.');
                                                 }
+                                            } else{
+                                                alert(`Data do evendo não pode ser menor ou igual a data de hoje.`);
+
+                                            }
                                             });
 
                                         </script>
